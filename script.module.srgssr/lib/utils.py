@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 # Copyright (C) 2018 Alexander Seiler
 #
 #
@@ -84,7 +82,7 @@ def str_or_none(inp, default=None):
 
 def get_duration(duration_string):
     """
-    Converts a duration string into an integer respresenting the
+    Converts a duration string into an integer representing the
     total duration in seconds. There are three possible input string
     forms possible, either
     <hours>:<minutes>:<seconds>
